@@ -12,7 +12,9 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "morgan": "^1.9.1",
-    "node-firewall": "^0.2.2"
+    "node-firewall": "^0.2.2",
+    "typescript": "*",
+    "ts-node": "*"
   },
   "scripts": {
     "start": "ts-node index.ts"
