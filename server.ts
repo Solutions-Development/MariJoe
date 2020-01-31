@@ -6,7 +6,7 @@ export const fs = require("fs");
 export const router = Router();
 export type firewall = (req: any, reply: any, next?: any) => void;
 
-export const connect = async (port: number) => { Promise.resolve(server.listen(port)).then(() => console.log("Server started."))};
+export const connect = async (port: any) => { Promise.resolve(server.listen(port)).then(() => console.log("Server started."))};
 export const integrate = async (options: any) => { server.use(options)};
 export const declare = async (options: any, value: any) => {server.set(options, value)};
 export const config = async (options: any, optionsTwo: any) => {server.use(options, optionsTwo)};
