@@ -6,7 +6,7 @@ _.config('/', _.router);
 
 _.debug(true);
 _.parse("50mb");
-_.connect(80);
+_.connect(process.env.POR);
 _.declare('view engine', 'ejs');
 
 
