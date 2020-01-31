@@ -33,8 +33,21 @@
                 <li class="flex-item"><ion-icon id="top-icon-cart" name="cart"></ion-icon></li>
                 <li class="flex-item"><ion-icon id="top-icon-send" name="share-alt"></ion-icon></li>
             </ul>
+            <script>
+            var d = new Date();
+            var weekday = new Array(7);
+            weekday[0] = "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thursday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+            var n = weekday[d.getDay()];
+            document.getElementById("weekDay").innerHtml = n;
+            </script>
             <div class="menu-section container card">
-                <h4><ion-icon name="star"></ion-icon>Buffet del <span id="weekDay">Lunes</span></h4>
+                <h4><ion-icon name="star"></ion-icon>Buffet del <span id="weekDay"></span></h4>
                 <div class="container menu-content">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex justify-content-between align-items-center">
