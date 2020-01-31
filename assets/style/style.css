@@ -1,0 +1,36 @@
+body {
+    background: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80') no-repeat center center fixed;
+}
+
+#brand {
+    color: #E74C3C;
+    font-weight: 600;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: #212121 !important;
+    text-decoration: none !important;
+}
+
+.nav-items {
+    color: white !important;
+}
+
+.menu-p {
+    width: 245px;
+    height: 220px;
+}
+
+h5 {
+    font-weight: 400 !important;
+}

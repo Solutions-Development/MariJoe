@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <title>Marijoe Restaurant</title>
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron jumbotron-fluid main-section">
+                <div class="container">
+                    <h1 class="display-4 mari-title">MariJoe Restaurant</h1>
+                    <h4 class="mari-title"><a href="mailto:pedidos@marijoerestaurant.com">Email</a> | <a href="tel:809-948-9999">Teléfono</a></h4>
+                    <br>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1" style="background-color: #ffffff;"><ion-icon name="search" id="search"></ion-icon></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Buscar" 
+                        aria-label="Username" aria-describedby="basic-addon1" style="height: 50px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <ul class="flex-container space-evenly">
+                <li class="flex-item"><ion-icon id="top-icon-like" name="heart"></ion-icon></li>
+                <li class="flex-item"><ion-icon id="top-icon-cart" name="cart"></ion-icon></li>
+                <li class="flex-item"><ion-icon id="top-icon-send" name="share-alt"></ion-icon></li>
+            </ul>
+            <div class="menu-section container card">
+                <h4><ion-icon name="star"></ion-icon>Buffet del <span id="weekDay">Lunes</span></h4>
+                <div class="container menu-content">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Pollo a la Planchas</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="margin: 0;padding: 0;">
+                                    <img src="https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="platoPreview">
+                                </button>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Chicharron de Pollo</span>  
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Cerdo Guisado con Vegetales</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Espaguettis Alfredo</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="menu-section container card">
+                <h4><ion-icon name="star"></ion-icon>Platos Ejecutivos</h4>
+                <div class="container menu-content">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Pechuga Rellena de Queso</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Canelones de Pollo</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div class="list-group">
+                                <span class="list-item">Sancocho Cibaeño</span>
+                                <span class="list-item badge badge-success badge-pill">$120.00</span>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <img src="https://placehold.it/180x180" class="card-img-top" alt="platoPreview">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-section container card">
+                <h4><ion-icon name="star"></ion-icon>Guarniciones</h4>
+                <div class="container menu-content">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arroz Blanco y Habichuela <span class="badge badge-success badge-pill">$120.00</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Arroz con Garbanzos y Jamos <span class="badge badge-success badge-pill">$120.00</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Mangu Encebollado <span class="badge badge-success badge-pill">$120.00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-section container card">
+                <h4><ion-icon name="star"></ion-icon>Ensaladas</h4>
+                <div class="container menu-content">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Ensalada Lechuga, Tomate y Pepinos <span class="badge badge-success badge-pill">$120.00</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Vegetales al Vapor <span class="badge badge-success badge-pill">$120.00</span></li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">Mangu Encebollado <span class="badge badge-success badge-pill">$120.00</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Detalle del Plato -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detalles del Plato</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <img src="https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" id="selectedDish" alt="platoPreview">
+                    </li>
+                    <li class="list-group-item"><ion-icon name="radio-button-on" class="modal-li"></ion-icon>Pollo a la Plancha</li>
+                    <li class="list-group-item"><ion-icon name="radio-button-on" class="modal-li"></ion-icon>Precio: $120.00</li>
+                    <li class="list-group-item">
+                        <h5>Guarnición</h5>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Guarnición</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Guarnición</label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>Ensalada</h5>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Ensalada</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Ensalada</label>
+                        </div>
+                    </li>
+                    <li class="list-group-item font-weight-bold">
+                        <ion-icon name="radio-button-on" class="modal-li"></ion-icon>
+                        Precios no incluyen impuestos, aplica 18% de ITBIS 
+                        y *10% de propina legal para consumir en Restaurante
+                        Delivery. *10% no aplica en pedidos para llevar (Carry out).</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-outline-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer id="footer">
+        MariJoe Restaurant &copy;
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

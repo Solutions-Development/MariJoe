@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #d7dbdd;
+}
+
+a {
+    text-decoration: none !important;
+    font-weight: 300;
+    color: white;
+}
+
+.main-section {
+    background-image: url("https://images.unsplash.com/photo-1526234362653-3b75a0c07438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80");
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mari-title {
+    font-weight: 500;
+    color: white;
+}
+
+.menu-section {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-section h4 {
+    margin: 10px;
+}
+
+.menu-section img {
+    width: 180px;
+    height: 180px;
+}
+
+.menu-section ion-icon {
+    font-size: 16px;
+    color: #f1c40f;
+    margin-right: 5px;
+}
+
+.space-div {
+    width: 100%;
+    height: 10px;
+    background-color: #d7dbdd;
+}
+
+.flex-container {
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    background-color: white;
+}
+
+.space-evenly { 
+    justify-content: space-evenly; 
+}
+
+.end-price {
+    justify-content: flex-end;
+}
+
+.badge {
+    width: 70px;
+}
+
+.list-item {
+    margin: 5px;
+}
+
+.modal-li {
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+#weekDay {
+    color: #cb4335; 
+}
+
+#selectedDish {
+    width: 100%;
+    height: 50%;
+}
+
+#top-icon-like {
+    color: #e66465;
+}
+
+#top-icon-cart {
+    color: #5499c7 !important;
+}
+
+#top-icon-send {
+    color: #52be80;
+}
+
+#share-mobile {
+    display: none;
+}
+
+#search {
+    font-size: 28px;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100% !important;
+    }
+
+    .menu-section img {
+        width: 80px;
+        height: 80px;
+    }
+}
